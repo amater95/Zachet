@@ -150,8 +150,8 @@ input[type="search"] {
   }
   .carusel-pagination-item:hover {
     display: block;
-    width: 15px;
-    height: 15px;
+    width: 9px;
+  height: 9px;
     border: 2px solid #d3c1ad;
     background-color: transparent;
   }
