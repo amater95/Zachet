@@ -154,11 +154,17 @@ color: #998675;
 }
 .carusel-btn:nth-of-type(1) {
   margin: 80px 476px 0 0;
-  background-image: url('../img/left_11970.png'); 
+  fill: #ffffff;
+}
+.carusel-btn:nth-of-type(1) :hover{
+  fill:#d3c1ad;
 }
 .carusel-btn:nth-of-type(2) {
   margin: 80px 0 0 476px;
-  background-image: url('../img/right_11969.png'); 
+  fill: #ffffff;
+}
+.carusel-btn:nth-of-type(2) :hover{
+  fill: #d3c1ad;
 }
 .carusel-txt {
   max-width: 589px;
@@ -313,7 +319,7 @@ color: #998675;
   color: #8c8c8c;
 }
 .multi_photo {
-  margin: 0 300px;
+  margin: 0 345px;
   max-width: 1230px;
   min-height: 482px;
   background-image: url("../img/browser_center_10768.png"),
@@ -382,6 +388,180 @@ color: #998675;
 .ad-button:active {
   background-color: #736357;
 }
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card-title {
+  text-align: center;
+  font-family: "raleway600", "arial", "sans-serif";
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #555555;
+  margin: 0 0 0 0;
+  padding: 80px 0 24px 0;
+}
+.card-txt {
+  margin: 0 0 0 0;
+  padding: 0 580px;
+  text-align: center;
+  max-width: 757px;
+  font-family: "montserrat" , "arial", "sans-serif";
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #8c8c8c;
+}
+.card-filtres {
+  min-width: 605px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.filter {
+  padding: 10px 18px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  background-color: transparent;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "montserrat" , "arial", "sans-serif";
+  color: #8c8c8c;
+  font-weight: 300;
+  text-align: center;
+  outline: none;
+}
+.filter:hover {
+  background-color: #998675;
+  color: #ffffff;
+}
+.card-info {
+  display: flex;
+  max-width: 1230px;
+  flex-wrap: wrap;
+  margin: 25px 345px;
+}
+.article {
+  width: 370px;
+  margin: 0 0 0 0;
+  padding: 15px;
+  position: relative;
+}
+.article:hover .article-btn-link {
+  display: block;
+}
+.article:hover .article-btn-search {
+  display: block;
+}
+.article:hover .article-photo {
+  filter: brightness(50%);
+}
+.article:hover .article-txt-wrapper {
+  background-color: #362f2d;
+}
+.article:hover .article-title {
+  color: #ffffff;
+}
+.article:hover .article-txt {
+color: #c7b299;
+}
+.article:hover .article-txt-wrapper:before {
+  border-bottom: 10px solid #362f2d;
+}
+.article-photo {
+  display: block;
+  width: 100%;
+}
+.article-txt-wrapper {
+    width: 100%;
+    position: relative;
+    background-color:#fbfaf8;
+}
+.article-txt-wrapper:before {
+  content: "";
+  border: 10px solid transparent;	
+  border-bottom: 10px solid#fbfaf8;
+  position: absolute;
+  top: -20px;
+  left: 19px;
+}
+.article-title {
+  display: block;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  font-family: "raleway500", "arial", "sans-serif";
+  line-height: 1.2;
+  font-weight: 500;
+  color: #c7b299;
+}
+.article-txt {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  font-family:  "montserrat" , "arial", "sans-serif";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #d1d1d1;
+}
+.article-btn-link,
+.article-btn-search {
+  width: 20px;
+  height: 20px;
+  display: none;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 45%
+}
+.article-btn-link {
+  left: 35%;
+}
+.article-btn-search {
+  right: 35%;
+}
+.article-btn-link svg {
+  fill: #ffffff;
+}
+.article-btn-link svg :hover {
+  fill: #c7b299;
+}
+.article-btn-search svg {
+  fill: #ffffff;
+}
+.article-btn-search svg :hover {
+  fill: #c7b299;
+}
+.card-button {
+  margin: 67px auto 55px auto;
+  width: 170px;
+  min-height: 50px;
+  border: none;
+  border-radius: 3px;
+  background-color: #998675;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "raleway800", "arial", "sans-serif";
+  color:#ffffff;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  outline: none;
+}
+.card-button:hover {
+  background-color: #fff;
+  color: #736357;
+}
+.card-button:active {
+  background-color: #736357;
+}
+
 
 
 
