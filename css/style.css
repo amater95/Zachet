@@ -518,7 +518,8 @@ color: #c7b299;
   border: none;
   background-color: transparent;
   position: absolute;
-  top: 45%
+  top: 45%;
+  outline: none;
 }
 .article-btn-link {
   left: 35%;
