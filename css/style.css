@@ -61,10 +61,10 @@ flex-direction: column;
   color: #ffffff;
   margin: 0 219px 0 0;
 }
-.logo-link :hover {
+.logo-link:hover {
 color: #998675;
 }
-.logo-link :active {
+.logo-link:active {
 color: black;
 }
 .logo-icon {
@@ -94,10 +94,10 @@ color: black;
   font-style: normal;
   margin: auto 0 auto 0;
 }
-.link-menu :hover {
+.link-menu:hover {
   color: #998675;
 }
-.link-menu :active {
+.link-menu:active {
   color: black;
 }
 .header-button-basket {
@@ -893,8 +893,14 @@ color: #c7b299;
   background-image: url("../img/arrow_11665.png");
   background-size: cover;
 }
+.post-link:hover {
+  color: black;
+}
 .post-link:hover::after{
-  transform: scale(1.2);
+  transform: scale(1.4);
+}
+.post-link:active::after {
+  transform: none;
 }
 .recent-btn:hover{
   fill: #c7b299;
